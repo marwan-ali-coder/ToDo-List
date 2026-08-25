@@ -1,0 +1,31 @@
+/* إجبار الصفحة والمتصفح على اللون الأسود الحقيقي */
+html, body, .black-bg {
+    background-color: #000000 !important; /* أسود مطلق */
+    color: #ffffff !important;
+    min-height: 100vh !important;
+    margin: 0;
+    padding: 0;
+}
+
+/* الكروت بطبقة رمادية داكنة جداً للتباين مع الأسود */
+.card-custom {
+    background-color: #121416 !important;
+    border: 1px solid #2a2e33 !important;
+}
+
+/* مربع تحذير عدم وجود مهام */
+.empty-alert {
+    background-color: #2b1d20 !important;
+    border: 1px solid #5c2529 !important;
+}
+
+/* الزر الأخضر */
+.btn-success {
+    background-color: #198754 !important;
+    border: none !important;
+}
+
+/* النص السماوي */
+.text-info {
+    color: #0dcaf0 !important;
+}
